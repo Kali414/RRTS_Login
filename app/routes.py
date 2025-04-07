@@ -25,8 +25,6 @@ def track_repair():
     return render_template("track_repair.html")
 
 
-
-
 @app.route("/contact",methods=["GET","POST"])
 def contact():
     return render_template("contact.html")
